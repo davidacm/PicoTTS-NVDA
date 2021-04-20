@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'svox-pico' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'svox-pico' '3.0a'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2021-04-16 18:11-0600\n"
+"PO-Revision-Date: 2021-04-17 14:03+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.7.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: addon\synthDrivers\pico.py:44
+msgid "American English"
+msgstr "Anglais Américain"
+
+#: addon\synthDrivers\pico.py:45
+msgid "British English"
+msgstr "Anglais Britannique"
+
+#: addon\synthDrivers\pico.py:46
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: addon\synthDrivers\pico.py:47
+msgid "French"
+msgstr "Français"
+
+#: addon\synthDrivers\pico.py:48
+msgid "Italian"
+msgstr "Italien"
+
+#: addon\synthDrivers\pico.py:49
+msgid "Deutch"
+msgstr "Allemand"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "SVOX Pico TTS Voices"
+msgstr "Voix TTS Svox Pico"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid ""
+"Svox Pico is a rather small but human sounding synthesizer that supports "
+"English U.S., English U.K., Spanish, French, Italian, and German languages."
+msgstr ""
+"Svox Pico est un très petit synthétiseur vocal, mais avec une apparence "
+"humaine qui prend en charge les langues Anglais Américain, Anglais "
+"Britannique, Espagnol, Français, Italien et Allemand."
