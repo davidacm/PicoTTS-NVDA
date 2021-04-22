@@ -111,11 +111,11 @@ class SynthDriver(SynthDriver):
 	def load_resources(self, name, langData, speakerData):
 		"""Loads lingware data, defines voice"""
 		langRes = pico_resource()
-		self.dll.pico_loadResource(self.pico_system, os.path.join(BASE_PATH.encode('utf-8'), b'svox-pico-data', langData), ctypes.byref(langRes))
+		self.dll.pico_loadResource(self.pico_system, os.path.join(BASE_PATH.encode('mbcs'), b'svox-pico-data', langData), ctypes.byref(langRes))
 		langResName=ctypes.create_string_buffer(200)
 		self.dll.pico_getResourceName(self.pico_system, langRes, langResName)
 		speakerRes = pico_resource()
-		self.dll.pico_loadResource(self.pico_system, os.path.join(BASE_PATH.encode('utf-8'), b'svox-pico-data', speakerData), ctypes.byref(speakerRes))
+		self.dll.pico_loadResource(self.pico_system, os.path.join(BASE_PATH.encode('mbcs'), b'svox-pico-data', speakerData), ctypes.byref(speakerRes))
 		speakerResName=ctypes.create_string_buffer(200)
 		self.dll.pico_getResourceName(self.pico_system, speakerRes, speakerResName)
 		self.dll.pico_createVoiceDefinition(self.pico_system, name)
@@ -219,7 +219,7 @@ class SynthDriver(SynthDriver):
 		for item in speechSequence:
 			if isinstance(item, str):
 				textList.append(item)
-			elif isinstance(item,speech.IndexCommand):
+			elif isinstance(item,IndexCommand):
 				index=item.index
 		text = " ".join(textList)
 		if text:

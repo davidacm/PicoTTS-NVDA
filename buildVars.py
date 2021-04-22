@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""Svox Pico is a rather small but human sounding synthesizer that supports English U.S., English U.K., Spanish, French, Italian, and German languages."""),
 	# version
-	"addon_version" : "3.1-dev",
+	"addon_version" : ,
 	# Author(s)
 	"addon_author" : u"NV Access Limited <admin@nvaccess.org>, Aleksey Sadovoy <lex@progger.ru>, David CM <dhf360@gmail.com>",
 	# URL for the add-on documentation support
