@@ -17,3 +17,19 @@ You need to use aNVDA version with python 3.7, this driver is not compatible wit
 
 # Packaging it for distribution.
   Open the command line, change to the Add-on root folder  and run the scons command. The created add-on, if there were no errors, is placed in the root directory.
+
+
+# contributions, reports and donations
+
+If you like my project or this software is useful for you in your daily life and you would like to contribute in some way, you can donate via the following methods:
+
+* [PayPal.](https://paypal.me/davicm)
+* [Ko-fi.](https://ko-fi.com/davidacm)
+* [cryptocurrencies and other methods.](https://davidacm.github.io/donations/)
+
+If you want to fix bugs, report problems or new features, you can contact me at: <dhf360@gmail.com>.
+
+  Or in the github repository of this project:
+  [Synth settings ring selector on GitHub](https://github.com/davidacm/synthRingSettingsSelector)
+
+    You can get the latest release of this add-on in that repository.

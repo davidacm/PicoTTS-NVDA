@@ -13,10 +13,11 @@ This driver was forked from an older version developed by NVDA's authors. Sadly,
 
 # Contributing to this project.
 ## Donations.
-  If you like my project or this software is useful for you in your daily life and you would like to contribute in some way, you can donate via paypal in the
-  [donate link.](https://paypal.me/davicm)
+If you like my project or this software is useful for you in your daily life and you would like to contribute in some way, you can donate via the following methods:
 
-  let me know if you want to write a message or promote a link in the collaboration section.
+* [PayPal.](https://paypal.me/davicm)
+* [Ko-fi.](https://ko-fi.com/davidacm)
+* [cryptocurrencies and other methods.](https://davidacm.github.io/donations/)
 
 ## fixing bugs and new features.
   If you want to fix a bug or add new feature, You will need to fork this repository.
